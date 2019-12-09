@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\Archive.Data\Archive.Data.csproj" />
+    <ProjectReference Include="..\..\core\Archive.Services\Archive.Services.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>Archive</AssemblyName>
+  </PropertyGroup>
+
+</Project>
